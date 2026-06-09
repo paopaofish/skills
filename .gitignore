@@ -1,1 +1,67 @@
-Nothing needs to be added to .gitignore since only a README file was added, which is a source/config file. No build artifacts, dependencies, or temporary files were detected in the changes.
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.ENV.local
+.env
+.env.local
+.env.*
+
+# Build and distribution artifacts
+dist/
+build/
+*.egg-info/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
